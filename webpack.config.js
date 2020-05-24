@@ -1,5 +1,5 @@
 module.exports = {
-    entry: './src/main.js', //arquivo principal do JS
+    entry: ['@babel/polyfill' ,'./src/main.js'], //arquivo principal do JS
     output: {
         path: __dirname + '/public',
         filename: 'bundle.js', // arquivo onde fica configuração do babel, que não reconhecem EcmaScript
